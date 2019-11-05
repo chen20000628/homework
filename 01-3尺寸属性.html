@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 200px;
+				margin: 10px;
+			}
+			.box1{
+				background: red;
+			}
+			.box2{
+				background: blue;
+				min-width: 300px;
+				/* max-height: 500px; */
+			}
+			.smallbox{
+				/* 30%=200*0.3=60px */
+				width: 30%;
+				height: 30%;
+				background: green;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 
+			尺寸属性
+			width(auto/值/百分比)
+			min-width:最小宽度
+			max-with:最大宽度
+			
+			height
+			min-height
+			max-height
+					 
+			百分比是相对于父元素
+		 -->
+		 
+		 <div class="box1">
+			 <div class="smallbox"></div>
+		 </div>
+		 <div class="box2"></div>
+	</body>
+</html>

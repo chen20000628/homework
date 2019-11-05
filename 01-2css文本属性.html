@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.content {
+				color: red;
+				/* direction: rtl; */
+				/* letter-spacing: 5px; */
+				font-size: 30px;
+				line-height: 1.5;
+				text-align: justify;
+				/* text-decoration: line-through; */
+				text-indent: 3em;				
+			}
+			.content a{
+				text-decoration: none;
+			}
+
+			p.shadow {
+				font-size: 50px;
+				font-weight: 800;
+				/* text-shadow: 5px 5px 3px blue; */
+				text-shadow: 5px 5px 1px red, 10px 10px 2px blue, 15px 15px 3px green, 20px 20px 1px purple;
+			}
+
+			.eng {
+				  font-size: 50px;
+				text-transform: lowercase;
+				/* text-transform: uppercase; */
+				/* text-transform: capitalize; */
+			}
+			.wsp{
+				width: 200px;
+				height: 100px;
+				background: red;
+				overflow: hidden;
+				/* text-overflow: clip; */
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				
+				/* overflow: hidden;
+				text-overflow: ellipsis; */
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 
+		color	设置文本的颜色。	
+		direction	规定文本的方向/书写方向(rtl/ltr/inherit)
+		letter-spacing	设置字符间距(5px/-5px)
+		
+		line-height	设置行高(1.5/18px/200%/2em)
+		/* 行高
+		 * 多行: 行间距
+		 * 单行: 位置位置 (行高=容器高度  居中)
+		 * 字会居于行高的
+		 * 行高计算请参考行高计算ppt
+		   
+		   em(百分比)
+		   em和字体大小有关，如果字体为13px，2em就是26px
+		 */
+				
+		text-align	规定文本的水平对齐方式(left/right/center/justify)
+		
+		text-decoration	规定添加到文本的装饰效果(underline/overline/line-through/none)
+		注意点：
+		要去除a标签的下划线，可设置text-decoration:none
+		
+		text-indent	规定文本块首行的缩进(32px/2em)
+		
+		text-shadow	规定添加到文本的阴影效果
+			text-shadow:x-position y-position blur color	
+			x-position 正数(负数)：向右偏移(向左偏移)	
+			y-position 正数(负数)：向下偏移(向上偏移)	
+			blur:模糊距离(可省略)，越大越模糊
+			color:颜色(可省略)
+				
+		text-transform	控制文本的大小写(capitalize/uppercase/lowercase)	
+			capitalize:首字大写
+			uppercase：大写
+			lowercase:小写
+		
+		
+		white-space	规定如何处理元素中的空白(pre/nowrap)
+			pre:空白被保留(保留原先的样式)，相当于使用<pre>标签
+			nowrap:不跳行 直到<br>
+		
+		word-spacing 设置单词间距
+			与letter-spacing相似，但只对英文字有效
+		
+		text-overflow 规定当文本溢出包含元素时发生的事情
+			clip:剪掉
+			ellipsis:省略;
+			注意点：
+			需搭配overflow:hidden才有效
+		-->
+
+		<p class="content">
+			你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力!你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力!你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力!你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！<a href="https://www.baidu.com">百度一下</a>
+		</p>
+		<p class="eng">
+			Hello world hTML
+		</p>
+
+		<p class="shadow">
+			南工院
+		</p>
+		
+		<p class="wsp">
+			你可以              不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力!你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力!你可以不聪明，但你不可以不努力！你可以不聪明，但你不可以不努力!
+		</p>
+		
+		
+	</body>
+</html>
